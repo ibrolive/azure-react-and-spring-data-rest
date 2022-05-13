@@ -22,6 +22,9 @@ public class Employee {
 
 	private @ManyToOne Manager manager;
 
+	public Employee() {
+	}
+
 	public Employee(String firstName, String lastName, String description, Manager manager) { // <2>
 		this.firstName = firstName;
 		this.lastName = lastName;
