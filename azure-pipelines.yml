@@ -12,10 +12,10 @@ variables:
   azureSubscription: 'eef85309-08cc-4e56-b131-fb545a340aaa'
 
   # Web app name
-  webAppName: 'ek-hackathon-1'
+  webAppName: 'sample-devops-web-app'
 
   # Environment name
-  environmentName: 'ek-hackathon-1'
+  environmentName: 'sample-devops-web-app'
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
